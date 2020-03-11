@@ -4,10 +4,21 @@
     Default markup for page level elements
 */
 
+@font-face {
+    font-family: "Inter Web";
+    font-weight: 400;
+    src: url("../fonts/Inter-Regular.woff") format("woff")
+}
+@font-face {
+    font-family: "Inter Web";
+    font-weight: 400;
+    src: url("../fonts/Inter-Bold.woff") format("woff")
+}
+
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue, arial, sans-serif";
+    font-family: "Inter Web, Helvetica Neue, arial, sans-serif";
     color: #5c6366;
     padding: 48px 24px 24px;
 }
